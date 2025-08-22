@@ -1,0 +1,23 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --color-primary: #2563eb; /* blue-600 */
+  --color-secondary: #10b981; /* emerald-500 */
+}
+
+html, body {
+  color-scheme: light dark;
+}
+
+.btn-primary {
+  background-color: var(--color-primary);
+}
+
+.btn-secondary {
+  background-color: var(--color-secondary);
+}
+
+
+
